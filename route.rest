@@ -1,0 +1,54 @@
+GET http://localhost:3000/posts
+
+###
+
+GET http://localhost:3000/posts/652c21939c63ab9cae4daa82
+
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "trial1",
+    "author": "person1",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis vel velit malesuada vehicula. Nam tempus interdum dui, vitae tincidunt metus. Sed vitae egestas mauris, non pretium felis. Vestibulum fermentum risus quis lorem vulputate consectetur. Nulla tortor purus, porttitor eu nunc a, elementum volutpat quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ut justo imperdiet, imperdiet neque non, molestie lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas fringilla blandit mattis. Fusce a consequat erat, ornare malesuada dui. Pellentesque viverra arcu eget sapien tristique, eu porttitor velit sagittis. Suspendisse congue risus justo, et molestie dolor blandit eget. Etiam laoreet quis sem non feugiat. Fusce ultricies velit fermentum magna venenatis sagittis.Vestibulum porttitor elit quis nibh condimentum porta. Phasellus nisl velit, eleifend id ipsum at, suscipit fringilla nisl. Sed eu sapien auctor, accumsan elit in, volutpat dui. Donec aliquam elementum felis sit amet mattis. Curabitur varius erat non blandit hendrerit. Aenean pretium lectus et erat posuere, a porta dolor aliquam. Mauris vel erat rutrum ex luctus aliquet a quis ligula. Etiam ultrices volutpat imperdiet. Donec sed enim interdum, tempus velit sit amet, blandit nunc. Maecenas mattis ante ac sagittis aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeosMauris gravida felis id diam pellentesque semper id vel leo. Sed semper felis eu vestibulum faucibus. Nulla feugiat felis tellus, sed bibendum neque vestibulum facilisis. Nam semper commodo cursus. Curabitur nec urna aliquet, sollicitudin turpis id, accumsan enim. Nullam hendrerit, nisi eget dictum sodales, velit dolor sodales tellus, ac tincidunt leo elit non tellus. Sed laoreet nec eros id vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec sagittis vestibulum mauris eu dictum. Fusce velit sem, accumsan eu auctor non, molestie id lectus. Proin nec accumsan magna.Nullam posuere posuere orci et sagittis. Quisque luctus quam ut eleifend mattis. Sed eget tortor at risus egestas congue. Morbi a arcu pretium, vulputate orci et, hendrerit nisi. Mauris felis erat, mollis blandit interdum sit amet, placerat quis dui. Nam cursus lectus a lorem semper, et suscipit dolor ultricies. Quisque semper in nibh ac euismod. Aliquam erat volutpat.Etiam vitae libero nisl. Aenean viverra porttitor vestibulum. Nam sed augue finibus, pulvinar ligula commodo, varius nulla. Etiam sollicitudin vulputate ex eget aliquam. Praesent vestibulum rutrum mauris, eget volutpat massa semper varius. In hac habitasse platea dictumst. Proin semper diam nunc, eu vehicula magna posuere non. Integer ullamcorper ex gravida ante bibendum, varius pellentesque nisl aliquet. Nulla gravida dolor mattis magna cursus, eu gravida erat ornare. Suspendisse purus massa, elementum ut pretium in, maximus eget metus.Nulla vestibulum dolor diam, eu semper ipsum egestas sed. Fusce posuere vel justo ut aliquam. Pellentesque sollicitudin volutpat orci, vel rhoncus nisi hendrerit ac. Nunc vulputate interdum justo, tempus posuere lorem eleifend non. Aliquam non justo ullamcorper, convallis enim non, commodo urna. Phasellus turpis augue, eleifend id sagittis in, posuere ut lacus. Pellentesque tempus rhoncus odio quis aliquam.Nulla facilisi. Quisque ut aliquam augue, sed maximus nulla. Ut vitae nibh vel nisl bibendum laoreet. Nam venenatis eget sapien ut pharetra. Proin a ultricies velit. Aenean auctor nibh nec est ullamcorper, eget pretium enim viverra. Quisque laoreet purus in enim lobortis, malesuada pretium nulla porta. Sed finibus quis ipsum non tincidunt. Nunc vestibulum tincidunt sapien, eget pulvinar libero luctus eget. Fusce vitae laoreet lorem. Mauris eget rutrum nulla, in congue nisi.Donec ullamcorper sem at mollis consectetur. Maecenas sed pretium leo. Curabitur sit amet suscipit sem. Donec tempor iaculis semper. Fusce maximus ipsum id justo lacinia fringilla. Cras mollis risus enim, ac sollicitudin lacus sollicitudin nec. Nullam a fringilla mi, quis tempor libero. Phasellus egestas accumsan auctor. Donec sit amet rhoncus elit, facilisis tincidunt velit. Ut consectetur sodales est. Morbi in libero diam. Praesent sodales, massa eget congue tempus, eros elit dictum lorem, sed pellentesque quam nulla vitae arcu. Vivamus ultrices sagittis quam a rutrum.Ut tincidunt diam eu justo viverra bibendum. Etiam nulla magna, commodo non iaculis vulputate, tempor ultrices mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ut commodo turpis, at pretium nisl. Mauris blandit metus ut nulla egestas, non imperdiet urna ultricies. Proin id ligula luctus, sodales magna eu, accumsan odio. Vivamus dictum diam et lectus cursus viverra. Donec vehicula tristique lacus a sodales. Fusce quis porta lacus.Fusce non tellus faucibus, viverra mauris finibus, suscipit leo. Etiam nulla tellus, lobortis non molestie vitae, scelerisque elementum nulla. Nam auctor in massa sed vehicula. Pellentesque mollis vel erat id posuere. Aliquam bibendum molestie rhoncus. Donec sit amet imperdiet sapien. Duis sagittis augue in metus dapibus efficitur nec nec felis.Fusce in tempor elit, eget consequat elit. Donec euismod congue mi, vel mattis ligula aliquam id. Sed cursus venenatis euismod. Pellentesque non quam purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed rhoncus auctor magna, vitae sagittis nisi rhoncus in. Curabitur eget lacinia risus. Mauris sollicitudin, sem ac convallis porta, libero velit suscipit odio, nec egestas quam massa vel tortor. Nunc odio sapien, iaculis sed neque id, vehicula dictum erat.Curabitur feugiat, eros eget interdum congue, turpis lacus volutpat quam, eu sodales justo ipsum id elit. Maecenas eu leo semper, aliquet enim vestibulum, placerat ante. Aenean quis lacus sed dolor pharetra feugiat. Mauris semper metus justo, elementum mattis orci interdum a. Nullam et dolor hendrerit, aliquam justo dictum, efficitur mi. Vestibulum efficitur id mauris eu pulvinar. Curabitur dui ipsum, varius quis nunc non, tincidunt placerat elit. Aenean massa metus, tristique a aliquam id, interdum id mi. Aliquam eu sem sit amet nibh molestie consequat. Nunc tincidunt, erat vitae varius pulvinar, tellus nunc eleifend urna, eu faucibus velit nibh sed nibh. Nulla sed arcu a dolor accumsan suscipit a ut leo. Suspendisse blandit nulla ut enim luctus, a posuere odio tempus. Fusce in elit id orci ultrices consequat. Nunc eu suscipit diam. Donec eu est lacus. Donec et lacus sed sapien ultricies molestie. "
+}
+
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "trial2",
+    "author": "person2",
+    "content": "this is a trial2"
+}
+
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "trial3",
+    "author": "person3",
+    "content": "this is a trial3"
+}
+
+###
+PUT  http://localhost:3000/posts/652c2263371b177b1eeffb02
+Content-Type: application/json
+
+{
+    "title": "trial",
+    "author": "person3",
+    "content": "this is a put trial 3"
+}
+
+###
+DELETE http://localhost:3000/posts/652c2268371b177b1eeffb06
+
+
+###
+DELETE http://localhost:3000/posts
+
+
