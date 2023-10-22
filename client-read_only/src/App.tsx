@@ -27,18 +27,24 @@ function App() {
         read-only and the other for editing posts, and they are both connected
         to same back-end server.
       </p>
+      <p>
+        This is read-only website. Click <a href="">here</a> to go to editable
+        website.
+      </p>
+      <p></p>
       <div id="blogCards" className="mt-5 ">
         {posts?.map((post: any) => (
           <div className="my-5">
             <div className="flex flex-row ">
-              <a href={post._id} className="font-bold mr-3 text-xl text-black">
+              <a
+                href={"posts/" + post._id}
+                className="font-bold mr-3 text-xl text-black"
+              >
                 {post.title}
               </a>
-              <div className="flex flex-col mr-2 text-sm justify-end">
-                {post.author}
-              </div>
+
               <div className="flex flex-col text-sm  justify-end">
-                {dateFormat(post.date, "yyyy.d.m")}
+                {dateFormat(post.dateUpdated, "yyyy.m.d")}
               </div>
             </div>
             <div className="max-h-32  overflow-hidden">{post.content}</div>

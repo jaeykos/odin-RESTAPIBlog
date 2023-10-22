@@ -1,11 +1,12 @@
 const express = require("express");
 const router = express.Router();
 const Post = require("../models/post");
+const dateFormat = require("dateformat");
 
 //Get all posts
 router.get("/", async (req, res) => {
   try {
-    const posts = await Post.find();
+    const posts = await Post.find().sort({ date: "descending" });
     res.json(posts);
   } catch (err) {
     res.status(500).json({ message: err.message });
@@ -26,7 +27,6 @@ router.get("/:id", async (req, res) => {
 router.post("/", async (req, res) => {
   const post = new Post({
     title: req.body.title,
-    author: req.body.author,
     content: req.body.content,
   });
   try {
@@ -40,7 +40,11 @@ router.post("/", async (req, res) => {
 //update one post
 router.put("/:id", async (req, res) => {
   try {
-    const update = { title: req.body.title, content: req.body.content };
+    const update = {
+      title: req.body.title,
+      content: req.body.content,
+      dateUpdated: Date.now(),
+    };
     const updatedPost = await Post.findOneAndUpdate(
       { _id: req.params.id },
       update,
